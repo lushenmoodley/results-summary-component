@@ -1,3 +1,9 @@
+*{
+    padding:0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
 .container{
     background-color: #FFFFFF;
     display: flex;
@@ -11,6 +17,8 @@
     background: linear-gradient(180deg, #7755FF 0%, #6943FF 0.01%, #2F2CE9 100%);
     border-radius: 32px;
     text-align: center;
+    width: 17%;
+    height: 416px;
 }
 
 .result-text-style{
@@ -20,4 +28,109 @@
     font-size: 24px;
     line-height: 31px;
     color: #CAC9FF;
+    padding-top: 30px;
+    padding-bottom: 23px;
+}
+
+.result-score-container{
+    background: linear-gradient(180deg, #4D21C9 0%, rgba(37, 33, 201, 0) 100%, rgba(37, 33, 201, 0) 100%);
+    border-radius: 50%;
+    width: 53%;
+    height: 172px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+}
+
+p.result-text-style {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#primary-result{
+    display: block;
+    font-family: 'Hanken Grotesk';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FFFFFF;
+}
+
+#total-result{
+    font-family: 'Hanken Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    color: #CAC9FF;
+    mix-blend-mode: normal;
+    opacity: 0.52;
+}
+
+.result-container span{
+    font-family: 'Hanken Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.result-container p{
+    padding-top: 7px;
+    font-family: 'Hanken Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    color: #CAC9FF;
+    width: 83%;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ /*Smartphones*/
+ @media(max-width:500px){
+    .container{
+        background-color:red;
+    }
+}
+
+/*tables*/
+@media (min-width:501px) and (max-width:768px){
+    .container{
+        background-color:yellow;
+    }
+}
+
+/*Target Normal*/
+@media (min-width:769px) and (max-width:1200px){
+   .container{
+    background-color: aqua;
+   }
+}
+
+/*Target Widescreen*/
+@media (min-width:1201px){
+    .container{
+        background-color: green;
+    }
+}
+
+/*Target Landscape*/
+@media (max-height:500x){
+    body{
+        background-color: orange;
+    }
+
+    #landscape h1{
+        display: block;
+    }
 }
