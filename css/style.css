@@ -17,7 +17,7 @@
     background: linear-gradient(180deg, #7755FF 0%, #6943FF 0.01%, #2F2CE9 100%);
     border-radius: 32px;
     text-align: center;
-    width: 17%;
+    width: 315px;
     height: 416px;
 }
 
@@ -112,16 +112,18 @@ p.result-text-style {
 
 /*Target Normal*/
 @media (min-width:769px) and (max-width:1200px){
-   .container{
-    background-color: aqua;
-   }
+    #primary-result {
+        font-size: 70px
+    }
+
+    .container{
+        background-color:green;
+    }
 }
 
 /*Target Widescreen*/
 @media (min-width:1201px){
-    .container{
-        background-color: green;
-    }
+    
 }
 
 /*Target Landscape*/
