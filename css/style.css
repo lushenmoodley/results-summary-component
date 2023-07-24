@@ -15,9 +15,9 @@
 .container{
     display: flex;
     background: #FFFFFF;
-    border-radius: 32px;
-    
+    border-radius: 32px;    
 }
+
 .result-container{
    /* background:  linear-gradient(#e66465, #9198e5);*/
     background: linear-gradient(180deg, #7755FF 0%, #6943FF 0.01%, #2F2CE9 100%);
@@ -156,8 +156,7 @@ p.result-text-style {
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
-    line-height: 23px; 
-    
+    line-height: 23px;     
 }
 
 .total-score{
@@ -275,17 +274,3 @@ button{
         line-height: 20px;
     }
 }
-
-@media (max-height:500x){
- 
-}
-
-#me {
-    height: 0;
-    background-color: #333;
-  }
-  #me2 {
-    height: 100px;
-    background-color: #333;
-    color: white;
-  }
